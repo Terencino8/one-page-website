@@ -38,9 +38,11 @@ section {
   padding: 0 20px;
 }
 
+
+
 /* Text styles */
 .u-text-small {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.4;
   font-weight: 300;
 }
@@ -49,7 +51,7 @@ section {
   color: var(--dark-text);
 }
 .u-text-light {
-  color: var(--dark-text);
+  color: var(--color-white);
 }
 
 .u-text-center {
@@ -77,5 +79,9 @@ section {
   margin: 0 auto;
   color: var(--dark-text);
 }
+
+/* text styles */
+
+ 
 
 

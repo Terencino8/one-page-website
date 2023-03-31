@@ -5,10 +5,10 @@ import { Navbar, Header, Features, Download, Subscribe, Faq, Footer} from "./com
 function App() {
   return (
     <main>
-      <header className="header-bg">
-        <Navbar/>
-        <Header/>
-      </header>
+        <header className="header-bg">
+            <Navbar/>
+            <Header/>
+        </header>
       <Features/>
       <Download/>
       <Subscribe/>
