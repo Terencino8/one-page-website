@@ -3,6 +3,12 @@
     justify-content: space-between;
     align-items: center;
     height: 8rem;
+    /* position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 999;
+    background-color: var(--dark-blue); */
 }
 
 .logo{
