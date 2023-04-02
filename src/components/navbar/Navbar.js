@@ -28,7 +28,7 @@ const Navbar = () => {
           <ul className="nav-links" id={showMenu ? "nav-link-mobile" : "nav-link-mobile-hide"}>
             <li><a href="#">Home</a></li>
             <li><a href="#features">Features</a></li>
-            <li><a href="#">Download</a></li>
+            <li><a href="#download">Download</a></li>
             <li><a href="#">Subscribe</a></li>
             {/* <li className='nav-btn'><a href="#" className='btn btn-dark'>Get Started</a></li> */}
 
