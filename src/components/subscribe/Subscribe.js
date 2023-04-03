@@ -1,10 +1,36 @@
 import React from 'react'
+import "./Subscribe.css"
+import { TiSocialGooglePlus } from "react-icons/ti"
+import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa"
 
 const Subscribe = () => {
   return (
-    <div>
-        <h1>subscribe</h1>
+    <section id='subscribe'>
+    <div className="container subscribe">
+      <h2>Subscribe now!</h2>
+      <form action="">
+          <div className="form-control">
+            <input type="text" placeholder='Enter Your Email...'/>
+            <button>Subscribe</button>
+          </div>
+      </form>
+      <div className="social-icons">
+        <div className="social-icon">
+          <TiSocialGooglePlus/>
+        </div>
+        <div className="social-icon">
+          <FaFacebookF/>
+        </div> 
+        <div className="social-icon">
+          <FaTwitter/>
+        </div>
+        <div className="social-icon">
+          <FaInstagram/>
+        </div>
+      </div>
     </div>
+     
+    </section>
   )
 }
 

@@ -29,7 +29,7 @@ const Navbar = () => {
             <li><a href="#">Home</a></li>
             <li><a href="#features">Features</a></li>
             <li><a href="#download">Download</a></li>
-            <li><a href="#">Subscribe</a></li>
+            <li><a href="#subscribe">Subscribe</a></li>
             {/* <li className='nav-btn'><a href="#" className='btn btn-dark'>Get Started</a></li> */}
 
             <li className='nav-btn'>
