@@ -1,7 +1,7 @@
 import React from 'react'
 import { MdOutlineLibraryBooks } from 'react-icons/md'
-
-
+  import Question from './Question'
+  import { questions } from './data.js'
 
 const Faq = () => {
   return (
@@ -13,6 +13,13 @@ const Faq = () => {
           <p className="u-text-small u-text-dark">
             TERRy.C is a Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum maiores aspernatur non. Laudantium culpa architecto quisquam rem porro molestias
             </p>
+        </div>
+
+
+        <div className="questions">
+        {questions.map((question) => (<Question title={question.title} answer={question.answer}/>
+          ))}
+
         </div>
         </div>
     </section>
