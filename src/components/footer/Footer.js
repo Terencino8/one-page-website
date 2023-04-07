@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Footer.css"
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaGlobe, } from "react-icons/fa";
+import { FaMapMarkerAlt, FaPhoneAlt, FaFax, FaEnvelope, FaGlobe, } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -30,9 +30,27 @@ const Footer = () => {
         </div>
         <div className="footer-box">
           <h4>Contact Us</h4>
-          .footer-contact
+          <div className="footer-contact">
+            <p>
+            <FaMapMarkerAlt/> &nbsp; Address: Nigeria
+            </p>
+            <p>
+                <FaPhoneAlt/> &nbsp; Phone: +23470 8542 9640
+            </p>
+            <p>
+            <FaFax/> &nbsp; Fax: +23470 8542 9640
+            </p>
+             <p>
+            <FaEnvelope/> &nbsp; Email: Terenceonyekachi@gmail.com
+            </p>
+            <p>
+            <FaGlobe/> &nbsp; WEbsite: Terence-onyekachi-netlify.com
+            </p>
+          </div>
         </div>
-        <div className="footer-box"></div>
+        <div className="footer-box">
+          
+        </div>
         
       </div>
         
