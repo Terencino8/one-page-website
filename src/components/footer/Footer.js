@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Footer.css"
 import { FaMapMarkerAlt, FaPhoneAlt, FaFax, FaEnvelope, FaGlobe, } from "react-icons/fa";
-
+import logo from "../../assets/logo.png";
 const Footer = () => {
   return (
-    <div id='footer'>
+    <footer id='footer'>
       <div className="container footer">
 
         <div className="footer-box">
@@ -49,12 +49,15 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-box">
-          
+          <img src={logo} alt="logo" />
+          <p className="u-small-text">
+            &copy; Copyright 2023. Terry.C
+          </p>
         </div>
         
       </div>
         
-    </div>
+    </footer>
   )
 }
 

@@ -33,7 +33,7 @@ const Navbar = () => {
             {/* <li className='nav-btn'><a href="#" className='btn btn-dark'>Get Started</a></li> */}
 
             <li className='nav-btn'>
-              <Button text={"Get Started"} btnClass={"btn-dark"} href={"#Faq"}/>
+              <Button text={"Learn More"} btnClass={"btn-dark"} href={"#faq"}/>
             </li>
           </ul>
         </menu>
