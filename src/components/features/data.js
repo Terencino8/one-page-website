@@ -2,8 +2,7 @@ import {FaAccessibleIcon, FaGg} from "react-icons/fa";
 import {SiDatabricks} from "react-icons/si"
 import {MdConnectWithoutContact} from "react-icons/md"
 
-
-
+ 
 export const featureList = [
     {
         id: 1, 

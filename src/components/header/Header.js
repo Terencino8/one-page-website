@@ -1,15 +1,27 @@
-import React from 'react'
+import React, {useEffect } from 'react'
 import "./Header.css"
 import phoneHeader from "../../assets/phone-header-bg.png"
 import Button from '../UI/button/Button'
 import "./../UI/button/Button"
 import {BsMouse} from "react-icons/bs";
 
+// this is to import the animation after installing using this link "npm install --save aos@next"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Header = () => {
+
+  // this is to use the animation effect
+  useEffect (() =>{
+    AOS.init({
+      duration: 1500,
+    });
+  }, [])
+
   return (
     <section id='header'>
         <div className="container header">
-          <div className="header-left">
+          <div className="header-left" data-aos="fade-right" >
             <h1>
               <span>THE WORLD'S LEADING</span>
               <span>CROSS-PLATFORM SECURE</span>
@@ -27,7 +39,7 @@ const Header = () => {
 
 
           
-          <div className="header-right">
+          <div className="header-right" data-aos="fade-left">
               <img src={phoneHeader} alt="Phone" />
           </div>
 
